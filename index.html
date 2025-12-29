@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head><link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feliz Aniversário Minha Princesa! 💕</title>
+    <meta name="description" content="Uma celebração especial para a pessoa mais incrível - Feliz Aniversário Julia!" />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Corações flutuantes -->
+    <div class="floating-hearts" id="floatingHearts"></div>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-content">
+          <div class="divider">
+            <div class="line"></div>
+            <svg class="heart-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            <div class="line"></div>
+          </div>
+          
+          <p class="subtitle">Feliz Aniversário</p>
+          <h1 class="title">Minha Princesa</h1>
+          <p class="description">TE AMOOO</p>
+          
+          <div class="heart-pulse">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+          </div>
+        </div>
+      </section>
+
+      <!-- Galeria de Fotos -->
+      <section class="gallery">
+        <div class="gallery-header">
+          <p class="gallery-subtitle">Galeria</p>
+          <h2 class="gallery-title">Nossos Momentos</h2>
+        </div>
+
+        <div class="photos">
+          <div class="photo-card" onclick="openPhoto(0)">
+            <img src="foto1.png" alt="Nosso momento especial" onerror="this.src='https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=600&h=750&fit=crop&q=80'">
+            <div class="photo-overlay">
+              <p>Nossa 1 vez saindo</p>
+            </div>
+          </div>
+          
+          <div class="photo-card" onclick="openPhoto(1)">
+            <img src="foto2.png" alt="Sempre juntos" onerror="this.src='https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=600&h=750&fit=crop&q=80'">
+            <div class="photo-overlay">
+              <p>Essa é a sua preferida KKK</p>
+            </div>
+          </div>
+          
+          <div class="photo-card" onclick="openPhoto(2)">
+            <img src="foto3.png" alt="Te amo" onerror="this.src='https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=600&h=750&fit=crop&q=80'">
+            <div class="photo-overlay">
+              <p>minha 1 vez na sua igreja vendo culto KKAAK</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Mensagem de Amor -->
+      <section class="love-message">
+        <div class="message-card">
+          <div class="message-heart">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+          </div>
+          
+          <h2>Para Você</h2>
+          
+          <div class="message-text">
+            <p>Neste dia especial, quero te dizer o quanto você é importante para mim.</p>
+            <p>Seu sorriso ilumina meus dias e seu amor me faz querer ser melhor.</p>
+            <p>cada palavra cada bom dia cada te amo me fez sentir especial como jamais me senti antes </p>
+            <p>que Deus te abençoe muito e esteja sempre na frente de nosso relacionamento</p>
+            <p>que possamos foratalecer um ao outro em cada dificuldade e estar juntos independente do momento bom ou ruim mas sempre juntos</p>
+            <p class="highlight">Te amo infinitamente.</p>
+          </div>
+          
+          <div class="hearts-row">
+            <svg class="small" viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            <svg class="small" viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <div class="footer-divider">
+          <div class="line"></div>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+          <div class="line"></div>
+        </div>
+        <p>feito com amor de Luca para Julia</p>
+      </footer>
+    </main>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" onclick="closePhoto()">
+      <button class="close-btn" onclick="closePhoto()">✕</button>
+      <button class="nav-btn prev" onclick="event.stopPropagation(); prevPhoto()">‹</button>
+      <div class="lightbox-content" onclick="event.stopPropagation()">
+        <img id="lightboxImg" src="" alt="">
+        <p id="lightboxCaption"></p>
+      </div>
+      <button class="nav-btn next" onclick="event.stopPropagation(); nextPhoto()">›</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
